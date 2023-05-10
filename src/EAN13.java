@@ -1,12 +1,25 @@
+/** 
+ * 
+@author Gabriele Cafaro
+@verion 2.0.3
+@since 10/05/2023
+*/
+
 public class EAN13 {
     
     private String codice;
 
+    /**
+     @param  c variabile usata per assegnare il valore al codice 
+    
+    */
    
     public void setCodice(String c){
         codice = c;
     }
 
+
+   
     public String getCodice(){
         return codice;
     }
